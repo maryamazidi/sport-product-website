@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&family=Roboto:ital,wght@1,300&display=swap');
 .first-div {
     position: relative;
 }
@@ -163,4 +163,47 @@ nav ol li a:hover {
 #have-top-margin {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.border-radius-needed {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#h5-spanhover {
+    font-family: 'Alegreya', serif;
+    font-size: smaller;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 1s;
+}
+#h5-spanhover h5 {
+    font-family: 'Alegreya', serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#h5-spanhover button {
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-color: hsla(290, 100%, 24%, 1);
+    background-color: hsla(290, 100%, 24%, 1);
+    color: white;
+}
+#h5-spanhover:hover {
+    transform: scale(1.2) translateY(-40px);
+}
+
+
+
+
+
+#arrow-up {
+    background-size: contain;
+    height: 50px;
+    position: sticky;
+    bottom: 20px;
+    left: 95vw;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+#arrow-up:hover {
+    box-shadow: 0px 0px 10px 7px gray;
 }
