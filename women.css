@@ -74,3 +74,56 @@ nav ol li a {
 nav ol li a:hover {
     color: red;
 }
+
+/* second part */
+
+.this-shouldbe-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
+.this-is-parent {
+    position: relative;
+    width: 40vw;
+}
+.sport-shoes {
+    box-shadow: 1vw 1vw 2px 2px white;
+    border-radius: 10px;
+    background-size: contain;
+    width: 17vw;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    align-self: center;
+}
+.sport-girl {
+    background-size: contain;
+    width: 40vw;
+    align-self: center;
+}
+@media (max-width: 740px) {
+    .sport-shoes {
+        position: absolute;
+        top: -20px;
+        left: -30px;
+    }
+}
+@media (min-width: 1645px) {
+    .sport-shoes {
+        position: absolute;
+        top: -50px;
+        left: -90px;
+    }
+}
+@media (min-width: 1648px) {
+    .this-is-parent {
+        background-size: contain;
+        width: 655px;
+    }
+}
+#TROUSERS {
+    background-size: contain;
+    width: 7vw;
+}
