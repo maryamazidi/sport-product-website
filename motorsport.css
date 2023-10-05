@@ -6,3 +6,10 @@
 .transform:hover{
     transform: translateY(-50px)
 }
+
+.back-to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+}
