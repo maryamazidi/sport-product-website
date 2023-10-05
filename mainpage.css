@@ -1,0 +1,157 @@
+
+/* ========= carousel ========= */
+
+.carousel-caption{
+    margin-bottom: 100px;
+} 
+
+@media (max-width: 768px){
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.btn-banner {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(67, 67, 68);
+    border: 15px solid rgb(67, 67, 68);
+    border-radius: 50px;
+
+}
+
+
+
+.service-item {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.174);
+}
+
+.service-item .service-icon {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.service-item a.btn {
+    transition: .5s;
+}
+
+#icon {
+    margin-left: -48px;
+}
+
+.appoinment {
+    background: linear-gradient(rgba(0, 0, 0, 0.845), rgba(0, 0, 0, 0.837), rgba(0, 0, 0, 0.796)), url(./img/3-banner-18380100.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-img{
+    width: 45px;
+    height: 45px;
+}
+
+.team-item {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.224);
+}
+
+.team-item {
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+
+.team-text {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-item:hover  .team-text {
+    opacity: 1;
+    bottom: 5px;
+}
+
+.team-item img{
+    transition: all .7s;
+}
+
+.team-item:hover  img {
+
+    transform: scale(1.1);
+}
+
+
+.btn-square {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    width: 38px;
+    height: 38px;
+}
+
+
+
+
+.carousel-opinion {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carousel-opinion img {
+    width: 100px;
+    margin: 20px;
+  }
+  
+  .btn-opinion {
+
+      width: 2.5rem;
+        height: 2.5rem;
+
+  }
+
+.custom-btn-next {
+    right: 20% !important;
+   
+  }
+
+
+
+.custom-btn-prev {
+    
+    left: 20% !important;
+   }
+  
+  .custom-btn-next,
+  .custom-btn-prev{
+    display: block !important;
+    width: auto !important;
+    top: auto !important;
+    bottom: -50px !important
+  }
+  
+
+
+  .back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+}
