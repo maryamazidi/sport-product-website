@@ -25,37 +25,37 @@ h1 {
     align-items: center;
     align-content: space-between;
 }
-nav {
+.nav-in-firstdiv {
     position: absolute;
     top: 45%;
     left: 10%;
 }
 @media (min-width: 1400px) {
-    nav {
+    .nav-in-firstdiv {
         position: absolute;
         left: 20%;
     }
 }
 @media (max-width: 1400px) {
-    nav {
+    .nav-in-firstdiv {
         position: absolute;
         top: 50%;
     }
 }
 @media (max-width: 1000px) {
-    nav {
+    .nav-in-firstdiv {
         position: absolute;
         top: 55%;
     }
 }
 @media (max-width: 650px) {
-    nav {
+    .nav-in-firstdiv {
         position: absolute;
         top: 60%;
     }
 }
 @media (max-width: 480px) {
-    nav {
+    .nav-in-firstdiv {
         position: absolute;
         top: 70%;
     }
